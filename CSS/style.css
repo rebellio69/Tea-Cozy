@@ -1,14 +1,15 @@
-* {
-  background-color: black;
-  color: seashell;
-  font-family: "Helvetica" sans-serif;
-  font-size: 22px;
-  opacity: 0.9;
-}
-
 body {
+
+  color: seashell;
+  font-family: "Helvetica";
+  font-size: 22px;
   margin: auto;
   width: 1280px;
+}
+
+body, .mission, .middle-box {
+  background-color: black;
+  opacity: 0.9;
 }
 
 header {
@@ -35,7 +36,11 @@ header img {
 nav span {
   display: inline-block;
   padding-left: 20px;
+  color: seashell;
 }
+ a {
+   color: seashell;
+ }
 
 .main-container {
   margin: 40px;
@@ -116,6 +121,8 @@ img {
 
 .location {
   width: 300px;
+  opacity: 1;
+  margin: 20px;
 }
 
 h2 {
