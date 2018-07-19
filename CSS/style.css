@@ -1,7 +1,6 @@
 body {
-
   color: seashell;
-  font-family: "Helvetica";
+  font-family: "Helvetica" serif;
   font-size: 22px;
   margin: auto;
   width: 1280px;
@@ -38,6 +37,7 @@ nav span {
   padding-left: 20px;
   color: seashell;
 }
+
  a {
    color: seashell;
  }
@@ -116,13 +116,17 @@ img {
 
 .locations {
   display: flex;
-  width: 900px;
 }
 
 .location {
   width: 300px;
+  margin: 15px 20px;
+  background-color: black;
   opacity: 1;
-  margin: 20px;
+}
+
+.bottom-box h2 {
+  margin-bottom: 0px;
 }
 
 h2 {
