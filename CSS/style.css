@@ -1,9 +1,12 @@
-body, a, header {
-  color: seashell;
+body {
   font-family: "Helvetica" serif;
   font-size: 22px;
   margin: auto;
   width: 1280px;
+}
+
+body, a {
+  color: seashell;
 }
 
 body, .mission {
@@ -18,6 +21,7 @@ header {
   border-bottom: 1px solid seashell;
   position: fixed;
   z-index: 1;
+  width: 1280px;
 }
 
 header img {
@@ -42,7 +46,7 @@ nav span {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 1200px;
+
 }
 
 .top-box {
@@ -72,6 +76,10 @@ nav span {
   align-items: center;
 }
 
+.title h4 {
+  margin-top: 0px;
+}
+
 img {
   height: 200px;
   width: 300px;
@@ -90,6 +98,9 @@ img {
 .tea {
   text-align: center;
 }
+.type h4 {
+  margin-top: 10px;
+}
 
 .myrtle {
   margin-right: 25px;
@@ -105,7 +116,7 @@ img {
   justify-content: center;
   align-items: center;
   height: 500px;
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-image: url("images/img-locations-background.jpg");
   text-align: center;
 }
 
@@ -115,42 +126,36 @@ img {
 
 .location {
   width: 300px;
-  margin: 15px 20px;
   background-color: black;
   opacity: 1;
-}
-
-.bottom-box h2 {
-  margin-bottom: 0px;
-}
-
-h2 {
-  font-size: 30px;
-}
-
-h3 {
-  font-size: 25px;
-}
-
-h4 {
-  font-size: 20px;
-}
-
-h5 {
-  font-size: 15px;
+  margin: 0px 20px;
 }
 
 footer {
-  margin-top: 0px;
-  padding-top: 0px;
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  margin-top: 0;
 }
 
 .info {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
+  text-align: center;
   height: 200px;
+}
+
+.info h2 {
+  margin-top: 0px;
+  margin-bottom: 40px
+}
+
+.info h5 {
+  margin: 10px;
+}
+
+footer h5 {
+  margin-left: 20px;
 }
 
 footer p {
